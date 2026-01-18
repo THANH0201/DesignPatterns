@@ -1,14 +1,13 @@
 package rpg;
 
-public class RoadTile extends Tile{
+public class RoadTile implements Tile {
     @Override
     public char getCharacter() {
         return 'R';
     }
     @Override
-    public String getDiscription() {
+    public String getType() {
         return "Road";
     }
-    @Override
-    public void action() {}
+
 }

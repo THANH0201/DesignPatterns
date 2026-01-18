@@ -5,7 +5,7 @@ public class Game {
         Map map = createMap();
         map.display();
     }
-    public static Map createMap() {
+    protected static Map createMap() {
         int random = (int) (Math.random() * 2);
         return switch (random) {
             case 0 -> new CityMap(20, 10);//200 tile

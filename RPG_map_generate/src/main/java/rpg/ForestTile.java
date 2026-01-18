@@ -1,14 +1,13 @@
 package rpg;
 
-public class ForestTile extends Tile{
+public class ForestTile implements Tile{
     @Override
     public char getCharacter() {
         return 'F';
     }
     @Override
-    public String getDiscription() {
+    public String getType() {
         return "Forest";
     }
-    @Override
-    public void action() {}
+
 }

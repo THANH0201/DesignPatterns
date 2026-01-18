@@ -1,14 +1,13 @@
 package rpg;
 
-public class SwampTile extends Tile{
+public class SwampTile implements Tile{
     @Override
     public char getCharacter() {
         return 'S';
     }
     @Override
-    public String getDiscription() {
+    public String getType() {
         return "Swamp";
     }
-    @Override
-    public void action() {}
+
 }
