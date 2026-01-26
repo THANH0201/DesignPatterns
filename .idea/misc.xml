@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/RPG_map_generate/pom.xml" />
+        <option value="$PROJECT_DIR$/AbtractFactory_ASCII_art_user_interfaces/pom.xml" />
       </list>
     </option>
   </component>
