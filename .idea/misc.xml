@@ -7,7 +7,17 @@
         <option value="$PROJECT_DIR$/RPG_map_generate/pom.xml" />
         <option value="$PROJECT_DIR$/AbtractFactory_ASCII_art_user_interfaces/pom.xml" />
         <option value="$PROJECT_DIR$/Composite_Organization_Structure/pom.xml" />
+        <option value="$PROJECT_DIR$/Observer_Weather_station_simulator/pom.xml" />
+        <option value="$PROJECT_DIR$/Singleton_Logger_System/pom.xml" />
+        <option value="$PROJECT_DIR$/Decorator_Customizable_Printer/pom.xml" />
+        <option value="$PROJECT_DIR$/Decorate_Customizable_Printer/pom.xml" />
+        <option value="$PROJECT_DIR$/State_GameCharacterDevelopmentSystem/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Decorator_Customizable_Printer/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="ms-17" project-jdk-type="JavaSDK">

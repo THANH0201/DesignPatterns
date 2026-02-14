@@ -6,10 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="RPG_map_generate" />
-        <module name="Composite_Organization_Structure" />
-        <module name="AbtractFactory_ASCII_art_user_interfaces" />
+        <module name="State_GameCharacterDevelopmentSystem" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AbtractFactory_ASCII_art_user_interfaces" target="17" />
+      <module name="Composite_Organization_Structure" target="17" />
+      <module name="Decorate_Customizable_Printer" target="17" />
+      <module name="Decorator_Customizable_Printer" target="17" />
+      <module name="Observer_Weather_station_simulator" target="17" />
+      <module name="RPG_map_generate" target="17" />
+      <module name="Singleton_Logger_System" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
