@@ -17,6 +17,6 @@ extends Map
 - CityMap: **Concrete Creators**  
 - WildernessMap: **Concrete Creators**
 ### **5. Client/Application/Driver class**
-Class Game: use factory method and run programe.  
+Class template.Game: use factory method and run programe.  
 ### **Notes**
 The action() method in the concrete tile classes is not used in this assignment. It is there to illustrate that the concrete tile classes can have additional methods that are defined in the Tile interface.

@@ -1,4 +1,4 @@
-package state;
+package main.java.state;
 
 public class MasterState implements State {
     @Override

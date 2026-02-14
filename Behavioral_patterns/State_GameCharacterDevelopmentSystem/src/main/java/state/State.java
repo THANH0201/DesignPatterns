@@ -1,4 +1,4 @@
-package state;
+package main.java.state;
 public interface State {
     void train(GameCharacter c);
     void meditate(GameCharacter c);

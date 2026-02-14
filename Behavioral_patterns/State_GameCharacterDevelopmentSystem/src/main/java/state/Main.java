@@ -1,4 +1,4 @@
-package state;
+package main.java.state;
 
 import java.util.Scanner;
 

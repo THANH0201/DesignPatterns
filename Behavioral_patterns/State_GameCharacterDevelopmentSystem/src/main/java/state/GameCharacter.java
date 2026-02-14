@@ -1,4 +1,4 @@
-package state;
+package main.java.state;
 
 public class GameCharacter {
     private String name;
