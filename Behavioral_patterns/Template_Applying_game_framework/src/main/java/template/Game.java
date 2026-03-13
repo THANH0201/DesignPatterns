@@ -1,4 +1,4 @@
-package template;
+package main.java.template;
 
 public abstract class Game {
 

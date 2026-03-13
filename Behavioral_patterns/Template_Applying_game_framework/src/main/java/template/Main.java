@@ -1,4 +1,4 @@
-package template;
+package main.java.template;
 
 public class Main {
     public static void main(String[] args) {

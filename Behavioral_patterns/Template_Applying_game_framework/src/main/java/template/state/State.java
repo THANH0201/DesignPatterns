@@ -1,4 +1,4 @@
-package template.state;
+package main.java.template.state;
 public interface State {
     void train(GameCharacter c);
     //void meditate(GameCharacter c);

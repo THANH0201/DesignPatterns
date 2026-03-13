@@ -1,6 +1,4 @@
-package template.state;
-
-import static java.lang.Math.random;
+package main.java.template.state;
 
 public class NoviceState implements State {
     @Override

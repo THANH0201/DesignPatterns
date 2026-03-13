@@ -1,7 +1,8 @@
-package template;
+package main.java.template;
 
-import template.state.GameCharacter;
-import template.state.NoviceState;
+
+import main.java.template.state.GameCharacter;
+import main.java.template.state.NoviceState;
 
 import java.util.Scanner;
 

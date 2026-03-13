@@ -1,4 +1,4 @@
-package template.state;
+package main.java.template.state;
 
 
 public class IntermediateState implements State {

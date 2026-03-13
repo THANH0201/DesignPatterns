@@ -1,7 +1,7 @@
-package template.state;
+package main.java.template.state;
 
 public class GameCharacter {
-    private String name;
+    private final String name;
     private int cycles;
     private int experience;
     private State state;
