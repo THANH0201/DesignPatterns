@@ -10,7 +10,6 @@ public class Model {
             options[optionNumber - 1] = choice;
         }
     }
-
     public int getOption(int optionNumber) {
         if (optionNumber >= 1 && optionNumber <= 3) {
             return options[optionNumber - 1];
