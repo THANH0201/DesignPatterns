@@ -5,7 +5,6 @@ public class Memento implements IMemento {
     private boolean isSelected;
     private String time;
 
-
     public Memento(int[] options, boolean isSelected) {
         this.options = options.clone(); // Copy options array
         this.isSelected = isSelected;
