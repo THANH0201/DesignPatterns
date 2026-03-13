@@ -58,7 +58,6 @@ public class Controller {
         model.restoreState(previousState);
         gui.updateGui();
     }
-
     public void redo() {
         if (redoList.isEmpty()){
             System.out.println("No more options to redo");
