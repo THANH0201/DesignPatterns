@@ -16,11 +16,11 @@ public class Merge<T extends Comparable<T>> implements SortStrategy<T> {
 
             int mid = (left + right) / 2;
 
-            // 1. Chia mảng thành 2 nửa
+            // 1. divide array to left and right
             mergeSort(arr, left, mid);
             mergeSort(arr, mid + 1, right);
 
-            // 2. Gộp 2 nửa đã sắp xếp
+            // 2. merge arrays
             merge(arr, left, mid, right);
         }
     }
@@ -33,14 +33,14 @@ public class Merge<T extends Comparable<T>> implements SortStrategy<T> {
         T[] L = Arrays.copyOfRange(arr, left, mid + 1);
         T[] R = Arrays.copyOfRange(arr, mid + 1, right + 1);
 
-        // copy dữ liệu vào mảng trái và phải
+        // copy data into left and right
         for (int i = 0; i < n1; i++) L[i] = arr[left + i];
         for (int j = 0; j < n2; j++) R[j] = arr[mid + 1 + j];
 
         int i = 0, j = 0;
         int k = left;
 
-        // gộp 2 mảng L và R vào arr
+        // merge left or right into array
         while (i < n1 && j < n2) {
             if (L[i].compareTo(R[j]) <= 0) {
                 arr[k] = L[i];
@@ -52,14 +52,14 @@ public class Merge<T extends Comparable<T>> implements SortStrategy<T> {
             k++;
         }
 
-        // copy phần còn lại của L
+        // copy maintenance of left
         while (i < n1) {
             arr[k] = L[i];
             i++;
             k++;
         }
 
-        // copy phần còn lại của R
+        // copy maintenance of right
         while (j < n2) {
             arr[k] = R[j];
             j++;

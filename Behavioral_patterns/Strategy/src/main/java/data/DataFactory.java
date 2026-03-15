@@ -13,14 +13,14 @@ public class DataFactory {
         return arr;
     }
 
-    public static String[] randomStrings(int size) {
-        String[] arr = new String[size];
-        Random r = new Random();
-        for (int i = 0; i < size; i++) {
-            arr[i] = "Str" + r.nextInt(10000);
-        }
-        return arr;
-    }
+//    public static String[] randomStrings(int size) {
+//        String[] arr = new String[size];
+//        Random r = new Random();
+//        for (int i = 0; i < size; i++) {
+//            arr[i] = "Str" + r.nextInt(10000);
+//        }
+//        return arr;
+//    }
 
     // the Student class implement Comparable<Student> must be created before
 //    public static Student[] randomStudents(int size) {

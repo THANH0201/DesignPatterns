@@ -8,39 +8,39 @@ public class Quick<T extends Comparable<T>> implements SortStrategy<T> {
     public void sort(T[] array) {
         quickSort(array, 0, array.length - 1);
     }
-    // Function quickSort: chia mảng và đệ quy sắp xếp
+    // Function quickSort: divide array and recursion
     private void quickSort(T[] arr, int low, int high) {
         if (low < high) {
 
-            // 1. Chia mảng theo pivot → trả về vị trí pivot sau khi sắp xếp đúng
+            // 1. divide array base on pivot
             int pivotIndex = partition(arr, low, high);
 
-            // 2. Sắp xếp phần bên trái pivot
+            // 2. sort left of pivot
             quickSort(arr, low, pivotIndex - 1);
 
-            // 3. Sắp xếp phần bên phải pivot
+            // 3. sort right of pivot
             quickSort(arr, pivotIndex + 1, high);
         }
     }
 
-    // Hàm partition: đặt pivot vào đúng vị trí và chia mảng thành 2 phần
+    // Function partition: put pivot on between of left and right
     private int partition(T[] arr, int low, int high) {
 
-        T pivot = arr[high];   // chọn pivot là phần tử cuối
-        int i = low - 1;         // i sẽ là vị trí cuối cùng của phần tử < pivot
-        // duyệt từ low đến high - 1
+        T pivot = arr[high];   // pivot: the last element
+        int i = low - 1; // i: the last index of element < pivot
+        // scan from low to high - 1
         for (int j = low; j < high; j++) {
 
-            // nếu phần tử nhỏ hơn pivot → đưa nó sang bên trái
+            // if element < pivot → put it on left
             if (arr[j].compareTo(pivot) < 0) {
                 i++;
-                // đổi chỗ arr[i] và arr[j]
+                // swap arr[i] and arr[j]
                 swap(arr, i, j);
             }
         }
-        // đưa pivot về đúng vị trí (sau tất cả phần tử nhỏ hơn nó)
+        // put pivot on correct position (after elements < pivot)
         swap(arr, i + 1, high);
-        return i + 1; // vị trí mới của pivot
+        return i + 1; // new position of pivot
     }
     private void swap(T[] arr, int i, int j) {
         T temp = arr[i];
