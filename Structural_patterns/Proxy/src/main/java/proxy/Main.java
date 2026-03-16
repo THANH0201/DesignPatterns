@@ -1,4 +1,4 @@
-package proxy;
+package main.java.proxy;
 
 import java.time.LocalDateTime;
 
@@ -22,6 +22,13 @@ public class Main {
         System.out.println(lib.get("doc1").getContent(alice));
 
         System.out.println(lib.get("doc2").getContent(alice));
-        System.out.println(lib.get("doc2").getContent(bob));
+        System.out.println(lib.get("doc2").getContent(bob));// throw error and break
+
+//        // just print error and continuos
+//        try {
+//            System.out.println(lib.get("doc2").getContent(bob));
+//        } catch (AccessDeniedException e) {
+//            System.out.println(e.getMessage());
+//        }
     }
 }

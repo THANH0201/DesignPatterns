@@ -1,4 +1,4 @@
-package proxy;
+package main.java.proxy;
 
 import java.util.HashMap;
 import java.util.HashSet;
