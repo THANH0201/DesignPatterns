@@ -1,3 +1,5 @@
+package main.java.strategy;
+
 import ConcreteStrategy.sort.Bubble;
 import ConcreteStrategy.sort.Merge;
 import ConcreteStrategy.sort.Quick;
