@@ -5,7 +5,7 @@ public class Main {
 
         NewDateInterface date = new CalendarToNewDateAdapter();
 
-        date.setDay(22);
+        date.setDay(30);
         date.setMonth(3);
         date.setYear(2026);
 
