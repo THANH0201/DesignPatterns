@@ -1,12 +1,13 @@
 package main.java.strategy;
 
-import ConcreteStrategy.sort.Bubble;
-import ConcreteStrategy.sort.Merge;
-import ConcreteStrategy.sort.Quick;
-import ConcreteStrategy.sort.Select;
-import InterfaceStrategy.SortStrategy;
-import context.SortContext;
-import data.DataFactory;
+
+import main.java.strategy.ConcreteStrategy.sort.Bubble;
+import main.java.strategy.ConcreteStrategy.sort.Merge;
+import main.java.strategy.ConcreteStrategy.sort.Quick;
+import main.java.strategy.ConcreteStrategy.sort.Select;
+import main.java.strategy.InterfaceStrategy.SortStrategy;
+import main.java.strategy.context.SortContext;
+import main.java.strategy.data.DataFactory;
 
 import java.util.Arrays;
 

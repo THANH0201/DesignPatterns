@@ -1,4 +1,4 @@
-package data;
+package main.java.strategy.data;
 
 import java.util.Random;
 

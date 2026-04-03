@@ -1,6 +1,7 @@
-package context;
+package main.java.strategy.context;
 
-import InterfaceStrategy.SortStrategy;
+
+import main.java.strategy.InterfaceStrategy.SortStrategy;
 
 public class SortContext<T extends Comparable<T>> {
     private SortStrategy<T> strategy;

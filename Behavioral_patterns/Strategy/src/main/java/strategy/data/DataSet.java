@@ -1,4 +1,4 @@
-package data;
+package main.java.strategy.data;
 
 public class DataSet<T> {
 

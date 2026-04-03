@@ -1,6 +1,6 @@
-package ConcreteStrategy.sort;
+package main.java.strategy.ConcreteStrategy.sort;
 
-import InterfaceStrategy.SortStrategy;
+import main.java.strategy.InterfaceStrategy.SortStrategy;
 
 import java.util.Arrays;
 
